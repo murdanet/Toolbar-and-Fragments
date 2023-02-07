@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    android:background="@drawable/fondo_android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mis top 3 de guitarras soñadas"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="50dp"
+
+        android:src="@drawable/miguel"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_comenzar"
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comenzar"
+        />
+/>
+</RelativeLayout>
